@@ -340,7 +340,7 @@ h3 {
     top: 10vh;
 }
 
-input {
+.inputForm {
     width: 100%;
     height: 5vh;
     background-color: transparent;
@@ -353,7 +353,7 @@ input {
     color: #fff;
     letter-spacing: 2px;
 }
-input::placeholder{
+.inputForm::placeholder{
     color: #d6d6d6;
 }
 .btnForm {
