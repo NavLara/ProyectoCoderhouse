@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: blue solid 1px; */
+}
+
+body {
+    font-family: 'Marcellus', serif;
+}
+
+
+/* BANNER+HEADER */
+.contenedorBanner {
+    background-image: url(../img/bg/banner.png);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    background-attachment: fixed;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.navHeader li {
+    list-style-type: none;
+    display: inline-block;
+}
+.enlacesNav {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+#menu {
+    display: none;
+}
+label {
+    cursor: pointer;
+    display: none;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    text-transform: uppercase;
+    text-align: center;
+}
+strong {
+    font-size: 2.2rem;
+}
+.arrowMain {
+    border: #fff solid 2px;
+    border-radius: 50px;
+    padding: 20px;
+    position: relative;
+    top: 60vh;
+    left: 48%;
+}
+
+
+/* MAIN */
+main {
+    background-image: url(../img/bg/main.png);
+    background-position: center;
+    background-size: auto;
+    padding: 10%;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.gridFotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.foto {
+    width: 100%;
+    height: 100%;
+}
+.link {
+    border: #000 solid 1px;
+    padding: 20px;
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    position: relative;
+    left: 37%;
+}
+.enlace {
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.contenedorActividades {
+    margin-top: 20%;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #1e1e1e;
+    height: 40vh;
+    text-align: center;
+    padding-top: 15vh;
+}
+.navFt {
+    border-bottom: #fff solid 1px;
+    padding-bottom: 20px;
+}
+.navFt li {
+    list-style: none;
+    display: inline-block;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+h4 {
+    color: #fff;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+/* ACTIVIDADES */
+.contenedorBannerAct {
+    background-image: url(../img/bg/banner-act.png);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.tituloBanner {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30vh;
+}
+.parrafoBanner {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.buscadorBanner {
+    text-align: center;
+    margin-top: 50px;
+}
+.input {
+    background-color: #fff;
+    opacity: 0.6;
+    padding: 20px 50px;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+}
+.btnSearch {
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+}
+.main {
+    padding: 5%;
+    height: 100%;
+}
+.gridCard {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 30px;
+    text-align: center;
+    margin-top: 90px;
+}
+.card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fotoCard {
+    width: 100%;
+    height: 100%;
+}
+h3 {
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.parrafoCard {
+    padding: 20px;
+    font-size: 1.3rem;
+}
+.btnCard {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: #edb88b;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+
+/* DESTINOS */
+.contenedorBannerDes {
+    background-image: url(../img/bg/bannerDes.png);
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+/* GALERIA */
+.mainGaleria{
+    padding: 0%;
+}
+.gridGaleria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: 500px;
+    margin-top: 5%;
+    padding: 0% 10% 10% 10%;
+}
+.tituloGaleria{
+    color: #000;
+    font-weight: 700;
+    margin-top: 5%;
+}
+.enlacesGal{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+.galeriaFotos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.galeriaItem:nth-child(1) {
+    grid-row-start: span 2;
+}
+.galeriaItem:nth-child(3) {
+    grid-row-start: span 2;
+}
+.galeriaItem:nth-child(5) {
+    grid-column-start: span 3;
+}
+.galeriaItem:nth-child(6) {
+    grid-column-start: span 3;
+}
+
+
+/* PSEUDOCLASES */
+/* hover nav */
+.enlacesNav:hover {
+    color: #edb88b;
+}
+
+/* hover links a paginas(destinos/actividades) */
+.link:hover {
+    color: #7a4419;
+    filter: invert(25%) sepia(99%) saturate(383%) hue-rotate(346deg) brightness(94%) contrast(95%);
+}
+
+/* hover nav Footer */
+.enlacesFt:hover {
+    color: #edb88b;
+}
+
+/* hover btn cards */
+.btnCard:hover {
+    background-color: #dd9657;
+}
+
+/* hover nav */
+.enlacesGal:hover {
+    color: #884d1c;
+}
+
+/* hover btn cards */
+.btnSearch:hover {
+    background-color: #0e0e0e;
+}
