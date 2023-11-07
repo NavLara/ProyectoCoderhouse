@@ -19,7 +19,7 @@ body {
     background-attachment: fixed;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@ strong {
 main {
     background-image: url(../img/bg/main.png);
     background-position: center;
-    background-size: auto;
+    background-size:cover;
     padding: 10%;
 }
 
@@ -257,7 +257,7 @@ h3 {
 
 /* DESTINOS */
 .contenedorBannerDes {
-    background-image: url(../img/bg/bannerDes.png);
+    background-image: url(../img/bg/banerDes.png);
     background-position: center;
     background-size: auto;
     height: 100vh;
@@ -315,56 +315,73 @@ h3 {
     grid-column-start: span 3;
 }
 
-/* GUIA */
-.bannerGuia {
-    background-image: url(../img/bg/bannerGuia.png);
-    background-position: center;
-    background-size: auto;
-    height: 100vh;
-    background-attachment: fixed;
-}
-.pfGuia{
-    color: #fff;
-    padding:50px 100px 0 100px;
-}
-.form {
-    width: 40vw;
-    height: auto;
-    background-color: transparent;
-    padding: 30px;
-    border: 2px solid rgba(225, 225, 225, 0.2);
-    backdrop-filter: blur(20px);
-    border-radius: 10px;
+/* PASEO */
+.tituloPaseos{
+    color: #0e0e0e;
+    width: 50vw;
+    text-align: left;
     position: relative;
-    left: 27vw;
-    top: 10vh;
+    top: 25vh;
+    left: 5vw;
+    font-weight: 700;
+}
+strong{
+    color: #7a4419;
 }
 
-.inputForm {
-    width: 100%;
-    height: 5vh;
-    background-color: transparent;
+.banner{
+    margin-bottom: 40% ;
+}
+.gridCardPs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0 10%;
+    margin-top: 5% ;
+    margin-bottom: 15%;
+    gap: 20px;
+}
+.precio{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.datos{
+    text-align: left;
+}
+.fa-brands{
+    margin: 40px 20px 60px 20px;
+}
+.brands{
+    text-align: center;
+}
+.imput {
+    background-color: #fff;
+    opacity: 0.6;
+    padding: 20px 50px;
+    width: 30%;
+    border-radius: 20px;
     border: none;
-    margin: 20px 0;
-    padding: 0px 10px;
-    border-bottom: #d6d6d6 solid 1px;
 }
-.tltForm{
-    color: #fff;
-    letter-spacing: 2px;
+.paseosForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
-.inputForm::placeholder{
-    color: #d6d6d6;
-}
-.btnForm {
+.btnSearchPs{
     background-color: #000;
     color: #fff;
-    cursor: pointer;
-    border-radius: 10px;
-    width: 200px;
+    font-size: 1rem;
+    padding: 20px 40px;
+    border-radius: 20px;
     border: none;
+    text-decoration: none;
+    position: relative;
+    top: 35vh;
+    left: 5vw;
 }
-
 /* PSEUDOCLASES */
 /* hover nav */
 .enlacesNav:hover {

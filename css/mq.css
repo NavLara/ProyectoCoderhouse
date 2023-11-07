@@ -37,6 +37,9 @@
         grid-column-start: span 1;
         grid-row-start: span 1;
     }
+    .tituloPaseos{
+        width: 80vw;
+    }
 }
 
 
@@ -48,6 +51,19 @@
     .gridGaleria {
         grid-auto-rows: 300px;
         gap: 10px;
+    }
+
+    .banner{
+        margin-bottom: 60%;
+    }
+    .tituloPaseos{
+        width: 80vw;
+    }
+    .fa-brands{
+        left: 42vw;
+    }
+    .imput{
+        width: 50vw;
     }
 }
 
@@ -97,6 +113,17 @@
         display: block;
         padding-top: 20px;
         padding-bottom: 10px;
+    }
+    
+    strong{
+        font-size: 1.5rem;
+    }
+
+    .banner{
+        margin-bottom: 80vh;
+    }
+    .gridCardPs{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
@@ -153,6 +180,9 @@
 
     .tituloBanner {
         padding-top: 100px;
+    }
+    .imput{
+        width: 70vw;
     }
 }
 
