@@ -1,0 +1,31 @@
+/* FOOTER */
+
+footer {
+    background-color: #1e1e1e;
+    height: 40vh;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.navFt {
+    border-bottom: $color-neutral00 solid 1px;
+    padding-bottom: 20px;
+
+    li {
+        list-style: none;
+        display: inline-block;
+    }
+}
+
+ul li a {
+    color: $color-neutral00;
+    text-decoration: none;
+    padding: 20px;
+}
+
+h4 {
+    color: $color-neutral00;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1rem;
+}

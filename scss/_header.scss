@@ -1,0 +1,36 @@
+/*HEADER*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.navHeader li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.enlacesNav {
+    text-decoration: none;
+    color: $color-neutral00;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+
+#menu {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    display: none;
+}
+
+/*pag-galeria*/
+.enlacesGal {
+    text-decoration: none;
+    color: $color-neutral01;
+    font-size: 1.5rem;
+    padding: 25px;
+}

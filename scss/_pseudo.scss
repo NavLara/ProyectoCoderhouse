@@ -1,0 +1,40 @@
+/* PSEUDOCLASES */
+/* hover nav */
+
+.enlacesNav:hover {
+    color: $color-secondary;
+  }
+  
+  /* hover links a paginas(destinos/actividades) */
+  
+  .link:hover {
+    color: $color-primary;
+    filter: invert(25%) sepia(99%) saturate(383%) hue-rotate(346deg) brightness(94%) contrast(95%);
+  }
+  
+  /* hover nav Footer */
+  
+  .enlacesFt:hover {
+    color: $color-secondary;
+  }
+  
+  /* hover btn cards */
+  
+  .btnCard:hover {
+    background-color: #dd9657;
+  }
+  
+  /* hover nav */
+  
+  .enlacesGal:hover {
+    color: #884d1c;
+  }
+  
+  /* hover btn search */
+  
+  .btnSearch:hover, .btnForm:hover {
+    background-color: #0e0e0e;
+  }
+  
+  /* hover btn form */
+  

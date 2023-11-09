@@ -1,0 +1,159 @@
+/*MAIN*/
+main {
+    background-image: url(../img/bg/main.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.gridFotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+}
+
+.link {
+    border: $color-neutral01 solid 1px;
+    padding: 20px;
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    position: relative;
+    left: 37%;
+}
+
+.enlace {
+    color: $color-neutral01;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.contenedorActividades {
+    margin-top: 20%;
+}
+
+/* pag-actividades */
+
+.gridCard {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 30px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.card {
+    width: 100%;
+    background-color: $color-neutral00;
+    border-radius: 15px;
+    padding: 20px 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoCard {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.parrafoCard {
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.btnCard {
+    color: $color-neutral01;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: $color-secondary;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+/* pag-galeria */
+
+.mainGaleria {
+    padding: 0%;
+}
+
+/* pag-galeria */
+
+.gridGaleria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: 500px;
+    margin-top: 5%;
+    padding: 0% 10% 10% 10%;
+}
+
+.tituloGaleria {
+    color:$color-neutral01;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.galeriaFotos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.galeriaItem {
+
+    &:nth-child(1),
+    &:nth-child(3) {
+        grid-row-start: span 2;
+    }
+
+    &:nth-child(5),
+    &:nth-child(6) {
+        grid-column-start: span 3;
+    }
+}
+
+/* pag-paseos */
+
+.gridCardPs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    gap: 20px;
+}
+
+.precio {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
