@@ -9,7 +9,7 @@ body {
 
 /*MAIN*/
 main {
-  background-image: url(../img/bg/main.png);
+  background-image: url(../img/bg/bg.jpg);
   background-position: center;
   background-size: cover;
   padding: 10%; }
@@ -168,7 +168,7 @@ label {
 
 /*BANNER*/
 .contenedorBanner {
-  background-image: url(../img/bg/banner.png);
+  background-image: url(../img/bg/bannerHome.jpg);
   background-position: center;
   background-size: auto;
   height: 100vh;
@@ -198,7 +198,7 @@ h1 {
 
 /* pag-actividades */
 .contenedorBannerAct {
-  background-image: url(../img/bg/banner-act.png);
+  background-image: url(../img/bg/bannerAct.jpg);
   background-position: center;
   background-size: auto;
   height: 100vh;
@@ -239,7 +239,7 @@ h1 {
 
 /* pag-destinos */
 .contenedorBannerDes {
-  background-image: url(../img/bg/banerDes.png);
+  background-image: url(../img/bg/bannerDes.jpg);
   background-position: center;
   background-size: auto;
   height: 100vh;
@@ -285,6 +285,14 @@ h4 {
   margin-top: 40px;
   font-weight: 300;
   font-size: 1rem; }
+
+.derechos {
+  color: #fff;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 1rem;
+  font-family: 'Marcellus', serif;
+  text-transform: none; }
 
 /*CONTACTO*/
 /* pag-paseos */

@@ -1,4 +1,10 @@
 /* FOOTER */
+@mixin textoderechos {
+    color: $color-neutral00;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1rem;
+}
 
 footer {
     background-color: #1e1e1e;
@@ -24,8 +30,12 @@ ul li a {
 }
 
 h4 {
-    color: $color-neutral00;
-    margin-top: 40px;
-    font-weight: 300;
-    font-size: 1rem;
+    @include textoderechos;
 }
+
+.derechos {
+    @include textoderechos;
+    font-family: 'Marcellus', serif;
+    text-transform: none;
+}
+

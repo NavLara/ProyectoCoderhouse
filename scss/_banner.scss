@@ -22,7 +22,7 @@
 }
 
 .contenedorBanner {
-    background-image: url(../img/bg/banner.png);
+    background-image: url(../img/bg/bannerHome.jpg);
     @include banner;
 }
 
@@ -52,7 +52,7 @@ h1 {
 /* pag-actividades */
 
 .contenedorBannerAct {
-    background-image: url(../img/bg/banner-act.png);
+    background-image: url(../img/bg/bannerAct.jpg);
     @include banner;
 }
 
@@ -91,7 +91,7 @@ h1 {
 /* pag-destinos */
 
 .contenedorBannerDes {
-    background-image: url(../img/bg/banerDes.png);
+    background-image: url(../img/bg/bannerDes.jpg);
    @include banner;
 }
 
