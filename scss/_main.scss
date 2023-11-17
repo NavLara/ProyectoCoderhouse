@@ -1,9 +1,13 @@
 /*MAIN*/
-main {
+@mixin bg {
     background-image: url(../img/bg/bg.jpg);
     background-position: center;
     background-size: cover;
+}
+
+#main {
     padding: 10%;
+    @include bg
 }
 
 h2 {
@@ -101,7 +105,7 @@ h3 {
 /* pag-galeria */
 
 .mainGaleria {
-    padding: 0%;
+    @include bg 
 }
 
 /* pag-galeria */
@@ -116,7 +120,7 @@ h3 {
 }
 
 .tituloGaleria {
-    color:$color-neutral01;
+    color: $color-neutral01;
     font-weight: 700;
     margin-top: 5%;
 }

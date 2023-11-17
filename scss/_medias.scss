@@ -5,10 +5,10 @@
         cursor: pointer;
     }
 
-    .navHeader {
-        display: none;
+    .sidebar{
+        background-color: rgba(225, 225, 225,0.15);
+        backdrop-filter: blur(100px);
     }
-
     #menu {
         display: none;
     }
@@ -98,7 +98,7 @@
 
     .link {
         width: 40vw;
-        left: 25vw;
+        left: 20vw;
         padding: 15px;
     }
 
@@ -184,6 +184,9 @@
     }
     .imput{
         width: 70vw;
+    }
+    .gridFotos{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 

@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    height: 100px;
 }
 
 .navHeader li {
@@ -15,18 +16,19 @@
     text-decoration: none;
     color: $color-neutral00;
     font-size: 1.5rem;
-    padding: 25px;
 }
-
-#menu {
-    display: none;
+.menu{
+    background-color: $color-neutral00;
 }
 
 label {
     cursor: pointer;
     display: none;
 }
-
+.logoSideBar{
+    width: 200px;
+    height: 50px;
+}
 /*pag-galeria*/
 .enlacesGal {
     text-decoration: none;

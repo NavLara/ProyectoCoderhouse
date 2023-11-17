@@ -8,11 +8,11 @@ body {
   font-family: 'Marcellus', serif; }
 
 /*MAIN*/
-main {
+#main {
+  padding: 10%;
   background-image: url(../img/bg/bg.jpg);
   background-position: center;
-  background-size: cover;
-  padding: 10%; }
+  background-size: cover; }
 
 h2 {
   text-align: center;
@@ -94,7 +94,9 @@ h3 {
 
 /* pag-galeria */
 .mainGaleria {
-  padding: 0%; }
+  background-image: url(../img/bg/bg.jpg);
+  background-position: center;
+  background-size: cover; }
 
 /* pag-galeria */
 .gridGaleria {
@@ -140,7 +142,8 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px; }
+  padding: 50px;
+  height: 100px; }
 
 .navHeader li {
   list-style-type: none;
@@ -149,15 +152,18 @@ h3 {
 .enlacesNav {
   text-decoration: none;
   color: #fff;
-  font-size: 1.5rem;
-  padding: 25px; }
+  font-size: 1.5rem; }
 
-#menu {
-  display: none; }
+.menu {
+  background-color: #fff; }
 
 label {
   cursor: pointer;
   display: none; }
+
+.logoSideBar {
+  width: 200px;
+  height: 50px; }
 
 /*pag-galeria*/
 .enlacesGal {
@@ -174,12 +180,12 @@ label {
   height: 100vh;
   background-attachment: fixed; }
 
-h1 {
-  font-weight: 500;
-  color: #fff;
+.tituloHome {
   position: relative;
   top: 30%;
   text-align: center;
+  color: #fff;
+  font-weight: 500;
   font-size: 2rem;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif; }
@@ -205,11 +211,14 @@ h1 {
   background-attachment: fixed; }
 
 .tituloBanner {
-  color: #fff;
   font-size: 2rem;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-  padding-top: 30vh; }
+  padding-top: 35vh;
+  text-align: center;
+  padding-bottom: 3vh;
+  font-weight: 700;
+  color: #fff; }
 
 .parrafoBanner {
   color: #fff;
@@ -245,6 +254,14 @@ h1 {
   height: 100vh;
   background-attachment: fixed; }
 
+/* pag-galeria */
+.tituloGaleria {
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif; }
+
 /* pag-paseos */
 .tituloPaseos {
   color: #0e0e0e;
@@ -253,7 +270,9 @@ h1 {
   position: relative;
   top: 25vh;
   left: 5vw;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase; }
 
 strong {
   color: #7a4419; }
@@ -363,8 +382,9 @@ h4 {
     display: initial;
     cursor: pointer; }
 
-  .navHeader {
-    display: none; }
+  .sidebar {
+    background-color: rgba(225, 225, 225, 0.15);
+    backdrop-filter: blur(100px); }
 
   #menu {
     display: none; }
@@ -432,7 +452,7 @@ h4 {
 
   .link {
     width: 40vw;
-    left: 25vw;
+    left: 20vw;
     padding: 15px; }
 
   .gridFotos {
@@ -492,6 +512,9 @@ h4 {
     padding-top: 100px; }
 
   .imput {
-    width: 70vw; } }
+    width: 70vw; }
+
+  .gridFotos {
+    grid-template-columns: repeat(1, 1fr); } }
 
 /*# sourceMappingURL=style.css.map */
