@@ -5,10 +5,15 @@
         cursor: pointer;
     }
 
-    .sidebar{
-        background-color: rgba(225, 225, 225,0.15);
+    .sidebar {
+        background-color: rgba(225, 225, 225, 0.15);
         backdrop-filter: blur(100px);
     }
+    .sidebargal {
+        background-color: rgb(225, 225, 225);
+        backdrop-filter: blur(100px);
+    }
+
     #menu {
         display: none;
     }
@@ -38,7 +43,8 @@
         grid-column-start: span 1;
         grid-row-start: span 1;
     }
-    .tituloPaseos{
+
+    .tituloPaseos {
         width: 80vw;
     }
 }
@@ -54,16 +60,19 @@
         gap: 10px;
     }
 
-    .banner{
+    .banner {
         margin-bottom: 60%;
     }
-    .tituloPaseos{
+
+    .tituloPaseos {
         width: 80vw;
     }
-    .fa-brands{
+
+    .fa-brands {
         left: 42vw;
     }
-    .imput{
+
+    .imput {
         width: 50vw;
     }
 }
@@ -79,6 +88,10 @@
         font-size: 1.5rem;
     }
 
+    .tituloHome {
+        font-size: 1.5rem;
+    }
+
     h2 {
         font-size: 1.2rem;
     }
@@ -91,11 +104,6 @@
         width: 150px;
         height: 35px;
     }
-
-    main {
-        padding: 20% 5%;
-    }
-
     .link {
         width: 40vw;
         left: 20vw;
@@ -115,16 +123,17 @@
         padding-top: 20px;
         padding-bottom: 10px;
     }
-    
-    strong{
+
+    strong {
         font-size: 1.5rem;
     }
 
-    .banner{
+    .banner {
         margin-bottom: 80vh;
     }
-    .gridCardPs{
-        grid-template-columns: repeat(1,1fr);
+
+    .gridCardPs {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -132,11 +141,6 @@
     .gridCard {
         grid-template-columns: repeat(1, 12fr);
     }
-
-    .main {
-        padding: 20% 10%;
-    }
-
     .galeriaItem:nth-child(1) {
 
         grid-column-start: span 3;
@@ -182,11 +186,19 @@
     .tituloBanner {
         padding-top: 100px;
     }
-    .imput{
+
+    .imput {
         width: 70vw;
     }
-    .gridFotos{
-        grid-template-columns: repeat(1,1fr);
+    .link {
+        width: 50vw;
+        left: 15vw;
+        padding: 15px;
+    }
+    .tituloGaleria{
+        font-size: 1.5rem;
+    }
+    .mainGaleria{
+        padding-top: 10%;
     }
 }
-

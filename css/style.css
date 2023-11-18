@@ -36,7 +36,7 @@ p {
 .link {
   border: #000 solid 1px;
   padding: 20px;
-  width: 20vw;
+  width: 25vw;
   text-align: center;
   margin-bottom: 40px;
   border-radius: 40px;
@@ -51,7 +51,20 @@ p {
 .contenedorActividades {
   margin-top: 20%; }
 
+/* pag-destinos */
+#mainDes {
+  padding: 10%;
+  background-image: url(../img/bg/bg.jpg);
+  background-position: center;
+  background-size: cover; }
+
 /* pag-actividades */
+#mainAct {
+  padding: 10%;
+  background-image: url(../img/bg/bg.jpg);
+  background-position: center;
+  background-size: cover; }
+
 .gridCard {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
@@ -78,6 +91,7 @@ h3 {
   padding: 10px;
   font-size: 1.3rem;
   font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   text-transform: uppercase; }
 
 .parrafoCard {
@@ -93,12 +107,11 @@ h3 {
   border-radius: 15px; }
 
 /* pag-galeria */
-.mainGaleria {
+.Galeria {
   background-image: url(../img/bg/bg.jpg);
   background-position: center;
   background-size: cover; }
 
-/* pag-galeria */
 .gridGaleria {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -154,9 +167,6 @@ h3 {
   color: #fff;
   font-size: 1.5rem; }
 
-.menu {
-  background-color: #fff; }
-
 label {
   cursor: pointer;
   display: none; }
@@ -169,8 +179,7 @@ label {
 .enlacesGal {
   text-decoration: none;
   color: #000;
-  font-size: 1.5rem;
-  padding: 25px; }
+  font-size: 1.5rem; }
 
 /*BANNER*/
 .contenedorBanner {
@@ -386,6 +395,10 @@ h4 {
     background-color: rgba(225, 225, 225, 0.15);
     backdrop-filter: blur(100px); }
 
+  .sidebargal {
+    background-color: #e1e1e1;
+    backdrop-filter: blur(100px); }
+
   #menu {
     display: none; }
 
@@ -437,6 +450,9 @@ h4 {
   h1 {
     font-size: 1.5rem; }
 
+  .tituloHome {
+    font-size: 1.5rem; }
+
   h2 {
     font-size: 1.2rem; }
 
@@ -446,9 +462,6 @@ h4 {
   .logo {
     width: 150px;
     height: 35px; }
-
-  main {
-    padding: 20% 5%; }
 
   .link {
     width: 40vw;
@@ -477,9 +490,6 @@ h4 {
 @media (max-width: 600px) {
   .gridCard {
     grid-template-columns: repeat(1, 12fr); }
-
-  .main {
-    padding: 20% 10%; }
 
   .galeriaItem:nth-child(1) {
     grid-column-start: span 3; }
@@ -514,7 +524,15 @@ h4 {
   .imput {
     width: 70vw; }
 
-  .gridFotos {
-    grid-template-columns: repeat(1, 1fr); } }
+  .link {
+    width: 50vw;
+    left: 15vw;
+    padding: 15px; }
+
+  .tituloGaleria {
+    font-size: 1.5rem; }
+
+  .mainGaleria {
+    padding-top: 10%; } }
 
 /*# sourceMappingURL=style.css.map */
